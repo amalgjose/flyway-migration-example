@@ -6,6 +6,9 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Step1
+        uses: actions/checkout@v3
+          with:
+            ref: main
         run: |
           ls -al
           pwd
