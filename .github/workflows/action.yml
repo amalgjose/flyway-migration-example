@@ -1,0 +1,10 @@
+name: Deploy Scripts
+
+jobs:
+  job_1:
+    name: Deploy SQL
+    runs-on: self-hosted
+    steps:
+      - name: Step1
+        run: |
+          ls -al
