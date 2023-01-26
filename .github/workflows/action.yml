@@ -1,5 +1,5 @@
 name: Deploy Scripts
-
+on: push
 jobs:
   job_1:
     name: Deploy SQL
