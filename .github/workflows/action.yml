@@ -8,3 +8,4 @@ jobs:
       - name: Step1
         run: |
           ls -al
+          pwd
