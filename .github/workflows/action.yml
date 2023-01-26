@@ -10,6 +10,6 @@ jobs:
         with:
             ref: main
       - name: Execute SQL
-        run:
-          ls -al
-          pwd
+        run: | 
+            ls -al
+            pwd
