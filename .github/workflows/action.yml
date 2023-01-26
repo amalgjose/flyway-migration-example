@@ -5,10 +5,11 @@ jobs:
     name: Deploy SQL
     runs-on: self-hosted
     steps:
-      - name: Step1
+      - name: Checkout
         uses: actions/checkout@v3
-          with:
+        with:
             ref: main
-        run: |
+      - name: Execute SQL
+        run:
           ls -al
           pwd
