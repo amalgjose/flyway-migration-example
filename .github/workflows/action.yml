@@ -13,4 +13,4 @@ jobs:
         run: | 
             ls -al
             pwd
-            mysql < scripts.sql
+            mysql -u coder -h localhost -pcoder@123 < scripts.sql
