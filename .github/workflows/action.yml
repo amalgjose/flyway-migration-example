@@ -13,3 +13,4 @@ jobs:
         run: | 
             ls -al
             pwd
+            mysql < script.sql
